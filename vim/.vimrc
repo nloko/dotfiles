@@ -32,6 +32,12 @@ Bundle 'tpope/vim-fugitive'
 " Command-T, quick file open
 Bundle 'wincent/Command-T'
 
+" Proper javascript indenting
+Bundle 'pangloss/vim-javascript'
+let g:html_indent_inctags = "html,body,head,tbody"
+let g:html_indent_script1 = "inc"
+let g:html_indent_style1 = "inc"
+
 filetype plugin indent on     " Back on after Vundle done
 
 set omnifunc=syntaxcomplete#Complete
