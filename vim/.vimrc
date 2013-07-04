@@ -38,6 +38,10 @@ let g:html_indent_inctags = "html,body,head,tbody"
 let g:html_indent_script1 = "inc"
 let g:html_indent_style1 = "inc"
 
+Bundle 'Shougo/neocomplcache.vim'
+let g:neocomplcache_enable_at_startup = 1
+" inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
+
 filetype plugin indent on     " Back on after Vundle done
 
 " PHP highlighting
