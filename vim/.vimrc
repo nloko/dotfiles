@@ -40,6 +40,10 @@ let g:html_indent_style1 = "inc"
 
 filetype plugin indent on     " Back on after Vundle done
 
+" PHP highlighting
+let php_sql_query=1                                                                                        
+let php_htmlInStrings=1
+
 set omnifunc=syntaxcomplete#Complete
 set tabstop=2
 set softtabstop=2
