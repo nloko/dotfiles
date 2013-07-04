@@ -55,6 +55,7 @@ colorscheme solarized
 
 " Mappings
 set <F8>=[19~
-noremap <F8> :TagbarToggle<CR>
-noremap <C-n> :NERDTreeToggle<CR>
+let mapleader=','
+noremap <leader>t :TagbarToggle<CR>
+noremap <leader>b :NERDTreeToggle<CR>
 inoremap <C-@> <C-x><C-o>
